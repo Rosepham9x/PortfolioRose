@@ -8,14 +8,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #EF5B78;
 }
 
 .App-link {
@@ -30,3 +30,214 @@
     transform: rotate(360deg);
   }
 }
+.navbar-default{
+  background-image: none;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  font-family: ' Josefin Sans';
+}
+.navbar-default .navbar-nav>li>a {
+  color: #EF5B78;
+  font-family: 'Josefin Sans'; 
+  text-transform: uppercase;
+}
+.navbar-default .navbar-brand {
+  color: #EF5B78;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+}
+
+.menu-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.menu-header >ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand-logo {
+  width: 77px;
+  height: inherit;
+}
+
+.padding-menu {
+  padding-top: 20px;
+}
+
+.content-email {
+  text-align: left;
+  color: #EF5B78;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+}
+
+.loichao {
+  text-align: left;
+  color: #EF5B78;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  margin-top: 175px;
+  font-size: 30px
+}
+
+.gioithieu {
+  text-align: left;
+  color: #977E83;
+  font-family: 'Josefin Sans';
+  margin-top: 32px;
+}
+
+.bttn-por {
+  margin-right: 433px;
+  text-transform: uppercase;
+  margin-top: 155px;
+  background: #EF5B78;
+  color: #FFFFFF
+}
+
+
+panel-default {
+  border-color: #FFFFFF
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 0;
+  /*border-radius: 4px;*/
+   box-shadow: none;
+}
+
+.app-footer .show-grid{
+  background-color: #ED355B
+}
+
+body {
+  color: #ffffff;
+}
+
+.dulich {
+margin-top: 15px;
+}
+.dulich img {
+ padding-left: 111px;
+}
+
+.xahoi {
+  margin-top: 15px;
+  }
+  .xahoi img {
+   padding-left:  99px;
+  }
+
+  .nghenhac {
+    margin-top: 15px;
+    }
+    .nghenhac img {
+     padding-left: 103px;
+    }
+
+    .docsach {
+      margin-top: 15px;
+      }
+      .docsach img {
+       padding-left: 97px;
+      }
+
+    .container {
+
+      font-size: 15px;
+    }
+
+    .vetoi{
+      color: #ED355B;
+      font-size: 23px; 
+    }
+
+    .ytuong img {
+      margin-left: 58px;
+    }
+
+    .layout img { 
+    padding-top: 58px;
+    margin-left: 82px;
+    }
+
+    .layout span {
+      padding-right: 38px
+    }
+
+    .mausac img {
+      padding-left: 58px;
+    }
+
+    .text {
+      text-align: left;
+      font-size: 21px;
+      margin-top: 128px;
+      color: #ED355B;
+    }
+
+    .kynang {
+      color: #ED355B;
+      margin-right: 764px;
+    }
+
+    .pm img{
+     margin-left: 154px;
+     margin-top: 33px;   
+    }
+
+    .bttn1 {
+      background: #EF5B78;
+      color: #ffffff;
+    }
+    .bttn2 {
+      background: #EF5B78;
+      color: #ffffff;
+    }
+    .bttn3 {
+      background: #EF5B78;
+      color: #ffffff;
+    }
+
+    .row1 {
+      color: #ED355B;  
+      margin-top: 56px;
+    }
+    .row1 span {
+      margin-right: 68px;
+    }
+
+    .row2 {
+      color: #ED355B;  
+    }
+    .row2 span {
+      margin-right: 68px;
+    }
+    
+    .textlife span {
+    color: #EF5B78
+    }
+
+    .textlife img {
+      margin-left: 183px;  
+    }
+
+    .bttn-contact {
+      background: #EF5B78;
+      color: #ffffff;
+      margin-right: 446px;
+      margin-bottom: 34px; 
+    }
+
+    .title {
+      color: #ED355B;
+      font-size: 33px;
+      margin-right: 206px;
+      margin-bottom: 13px;
+    }
