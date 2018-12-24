@@ -10,7 +10,7 @@ class Page extends React.Component {
             <div>
               <Header></Header>
               <Content Content={this.props._content}> </Content>
-              <Footer></Footer>
+              <Footer data={this.props.footerData}></Footer>
             </div>
         )
     }

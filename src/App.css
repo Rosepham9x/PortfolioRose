@@ -241,3 +241,31 @@ margin-top: 15px;
       margin-right: 206px;
       margin-bottom: 13px;
     }
+
+    .kinhnghiem {
+      margin-top: 15px;
+      }
+    .kinhnghiem img {
+      padding-left: 106px;
+      }
+      
+    .thietkeapp {
+      margin-top: 15px;
+      }
+    .thietkeapp img {
+      padding-left:  99px;
+      }
+      
+    .tkposm {
+      margin-top: 15px;
+      }
+    .tkposm img {
+      padding-left: 103px;
+      }
+      
+    .dungvideo {
+      margin-top: 15px;
+      }
+    .dungvideo img {
+      padding-left: 97px;
+      }

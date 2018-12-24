@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../Page'
 
 import { Grid, Row, Col, Image} from 'react-bootstrap';
+import data from '../data'
 
 class AboutMePage extends React.Component {
   buidContent() {
@@ -75,7 +76,7 @@ class AboutMePage extends React.Component {
   render() {
     return (
       <div className="home-page">
-        <Page _content={this.buidContent()}></Page>
+        <Page footerData={data.getAboutMeFooter()} _content={this.buidContent()}></Page>
       </div>
     );
   }

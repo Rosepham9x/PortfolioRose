@@ -4,10 +4,24 @@ import {Grid, Row, Col, Image } from 'react-bootstrap';
 
 class Footer extends React.Component {
 
-        buildContent() {
-    
+    buildContent() {
+        let data = this.props.data || [];
         let content = [];
-        content.push(
+
+        for(let i in data) {
+            content.push(
+                <Col key={i} sm={6} md={3}>
+                    <div className={data[i].cls}>
+                        <Image src={data[i].img} responsive/> 
+                            {data[i].description}
+                    </div>
+                </Col>
+            );
+        }
+
+        return (<Grid ><Row className="show-grid">{content}</Row></Grid>);
+
+        /*content.push(
             <Grid key="grid">
                 <Row className="show-grid">
                 <Col sm={6} md={3}>
@@ -35,14 +49,12 @@ class Footer extends React.Component {
                 <div className="docsach">
                 <Image src="image/docsach.png" responsive/> 
                 Đọc sách
-               </div>  
-            
-                    
+               </div>      
                 </Col>
                 </Row>
             </Grid>
         )
-        return content;
+        return content;*/
     }
     render() {
         return (
