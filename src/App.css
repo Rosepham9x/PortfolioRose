@@ -220,12 +220,19 @@ margin-top: 15px;
       margin-right: 68px;
     }
     
+    .textlife {
+     background-color: #ED355B;
+     margin-bottom: 218px;
+     color: #ffffff;
+    }
+
     .textlife span {
-    color: #EF5B78
+    margin-bottom: 38px;
     }
 
     .textlife img {
-      margin-left: 183px;  
+      margin-left: 183px;
+      margin-bottom: 60px  
     }
 
     .bttn-contact {

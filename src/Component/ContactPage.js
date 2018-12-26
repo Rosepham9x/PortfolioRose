@@ -13,19 +13,19 @@ class ContactPage extends React.Component {
             <div className="contact">
             <div className="title">Hãy liên lạc với tôi nhé !</div>
               <form>
-                <FormGroup bsSize="large">
+                <FormGroup >
                   <FormControl type="textname" placeholder="Họ và tên bạn" />
                 </FormGroup>
-                <FormGroup bsSize="large">
+                <FormGroup>
                   <FormControl type="textemail" placeholder="Email của bạn" />
                 </FormGroup>
-                <FormGroup bsSize="large">
+                <FormGroup>
                   <FormControl type="textphone" placeholder="Điện thoại của bạn" />
                 </FormGroup>
-                <FormGroup bsSize="large">
+                <FormGroup>
                   <FormControl type="texttype" placeholder="Loại công việc" />
                 </FormGroup>
-                <FormGroup bsSize="large">
+                <FormGroup>
                   <FormControl type="textdetail" placeholder="Thông tin chi tiết công việc" />
                 </FormGroup>
               </form>;
@@ -37,13 +37,11 @@ class ContactPage extends React.Component {
               <Panel.Body>
                 <div className="textlife">
                   <Image src="image/avatar.png" responsive />
-                  <span>“Cuộc sống chỉ mang lại cho chúng ta <br></br>
+                  <span className="textlife">“Cuộc sống chỉ mang lại cho chúng ta <br></br>
                     10% cơ hội, 90% còn lại là do chúng ta <br></br>
                     trải nghiệm thế nào với nó.”</span> <br></br>
-                    <br></br>
                    <a href="url">Link CV pdf</a>
                 </div>
-
               </Panel.Body>
             </Panel>
           </Col>
