@@ -1,3 +1,7 @@
+body{
+  background-image: url("/image/background.png");
+  background-size: contain;
+}
 .App {
   text-align: center;
 }
@@ -32,10 +36,12 @@
 }
 .navbar-default{
   background-image: none;
-  background-color: transparent;
+  background-color:white;
   border: 0;
   box-shadow: none;
   font-family: ' Josefin Sans';
+  margin-bottom: 0px;
+  width: 100%;
 }
 .navbar-default .navbar-nav>li>a {
   color: #EF5B78;
@@ -73,6 +79,7 @@
   color: #EF5B78;
   font-family: 'Josefin Sans';
   text-transform: uppercase;
+  margin-top: 83px;
 }
 
 .loichao {
@@ -80,7 +87,7 @@
   color: #EF5B78;
   font-family: 'Josefin Sans';
   text-transform: uppercase;
-  margin-top: 175px;
+  margin-top: 120px;
   font-size: 30px
 }
 
@@ -92,9 +99,9 @@
 }
 
 .bttn-por {
-  margin-right: 433px;
+  float: left;
   text-transform: uppercase;
-  margin-top: 155px;
+  margin-top: 30px;
   background: #EF5B78;
   color: #FFFFFF
 }
@@ -124,28 +131,28 @@ body {
 margin-top: 15px;
 }
 .dulich img {
- padding-left: 111px;
+ padding-left: 136px;
 }
 
 .xahoi {
   margin-top: 15px;
   }
   .xahoi img {
-   padding-left:  99px;
+   padding-left: 120px;
   }
 
   .nghenhac {
     margin-top: 15px;
     }
     .nghenhac img {
-     padding-left: 103px;
+     padding-left: 122px;
     }
 
     .docsach {
       margin-top: 15px;
       }
       .docsach img {
-       padding-left: 97px;
+       padding-left: 118px;
       }
 
     .container {
@@ -253,26 +260,38 @@ margin-top: 15px;
       margin-top: 15px;
       }
     .kinhnghiem img {
-      padding-left: 106px;
+      padding-left: 130px;
       }
       
     .thietkeapp {
       margin-top: 15px;
       }
     .thietkeapp img {
-      padding-left:  99px;
+      padding-left:125px;
       }
       
     .tkposm {
       margin-top: 15px;
       }
     .tkposm img {
-      padding-left: 103px;
+      padding-left: 128px;
       }
       
     .dungvideo {
       margin-top: 15px;
       }
     .dungvideo img {
-      padding-left: 97px;
+      padding-left: 120px;
+      }
+
+      .home-page .panel {
+        background: transparent;
+      }
+      .app-footer .container {
+        margin: 0;
+        width: 100%;
+      }
+
+      .loichao span{
+        display: inherit;
       }

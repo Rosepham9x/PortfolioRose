@@ -18,15 +18,15 @@ class HomePage extends React.Component {
               <Panel.Body>
                 <div className="content-email">EMAIL ME : rose.cuxi@gmail.com</div>
                 <div className="loichao">
-                   Xin chào!
-                   Tôi là Nhung Phạm.
-                   Graphic designer.
-                   UI/UX designer.
+                   <span>Xin chào!</span>
+                   <span>Tôi là Nhung Phạm.</span>
+                   <span> Graphic designer.</span>
+                   <span>UI/UX designer.</span>
                    </div>
                    <div className="gioithieu">
-                   UI/UX & Graphic Design là niềm đam mê của tôi, 
-                   tôi luôn theo đuổi nó, luôn muốn những sản phẩm mình làm ra sẽ
-                    ngày càng đẹp, hoàn mỹ hơn.
+                   <span>UI/UX & Graphic Design là niềm đam mê của tôi,</span> <br></br>
+                   <span>tôi luôn theo đuổi nó, luôn muốn những sản phẩm mình</span> <br></br>
+                   <span>làm ra sẽ ngày càng đẹp, hoàn mỹ hơn.</span>
                    </div>
                    <Button className="bttn-por">go to portfolio</Button>
                 </Panel.Body>
