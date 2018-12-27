@@ -302,3 +302,7 @@ margin-top: 15px;
       .loichao span{
         display: inherit;
       }
+
+      a {
+        color: beige; 
+      }

@@ -14,7 +14,7 @@ class AboutMePage extends React.Component {
           <div className="vetoi">
          <span> Câu chuyện của tôi</span> <br></br>
         <span>Những câu chuyện của tôi được bắt đầu</span> <br></br>
-        <span> từ ý tưởng, bố cục, màu sắc</span>
+        <span> từ ý tưởng, bố cục, màu sắc.</span>
          </div>
           </Col>
         </Row>
