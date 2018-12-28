@@ -7,6 +7,7 @@ import AboutMePage from './Component/AboutMePage';
 import ExperiencePage from './Component/ExperiencePage';
 import PortfolioPage from './Component/PortfolioPage ';
 import ContactPage from './Component/ContactPage';
+import WebappPage from './Component/WebappPage';
 
 const Router = ()=> (
     <BrowserRouter>
@@ -17,6 +18,7 @@ const Router = ()=> (
         <Route path="/kinh-nghiem" component={ExperiencePage}/>
         <Route path="/portfolio" component={PortfolioPage}/>
         <Route path="/lien-he" component={ContactPage}/>
+        <Route path="/San-pham" component={WebappPage}/>
     </Switch>
     </Suspense>
     </BrowserRouter>

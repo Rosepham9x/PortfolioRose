@@ -46,9 +46,9 @@ class AboutMePage extends React.Component {
           Một câu chuyện của tôi được bắt đầu.....
           <br></br>
           <br></br>
-          Bước 1 : Tìm kiếm ý tưởng  <br></br>
+          Bước 1 : Tìm kiếm ý tưởng <br></br>
           Đây là một công ty làm về công nghệ vì vậy phải tạo sự chuyên nghiệp, <br></br>
-          sang, hiện đại và  thể hiện được đặc thù của ngành đó.
+          sang, hiện đại và thể hiện được đặc thù của ngành đó.
           <br></br>
           <br></br>
           Bước 2 : Sắp xếp bố cục <br></br>
