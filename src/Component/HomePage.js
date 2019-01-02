@@ -2,7 +2,7 @@ import React from 'react';
 import Page from '../Page'
 
 import { Grid, Row, Col, Image, Panel, Button } from 'react-bootstrap';
-import data from '../data'
+import data from '../Data'
 
 class HomePage extends React.Component {
   buidContent() {

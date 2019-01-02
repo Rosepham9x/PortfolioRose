@@ -2,7 +2,7 @@ import React from 'react';
 import Page from '../Page'
 
 import { Grid, Row, Col, Image} from 'react-bootstrap';
-import data from '../data'
+import data from '../Data'
 
 class AboutMePage extends React.Component {
   buidContent() {
@@ -12,9 +12,9 @@ class AboutMePage extends React.Component {
       <Row className="show-grid">
           <Col sm={12} md={12}>
           <div className="vetoi">
-          Câu chuyện của tôi <br></br>
-          Những câu chuyện của tôi được bắt đầu <br></br>
-         từ ý tưởng, bố cục, màu sắc
+         <span> Câu chuyện của tôi</span> <br></br>
+        <span>Những câu chuyện của tôi được bắt đầu</span> <br></br>
+        <span> từ ý tưởng, bố cục, màu sắc.</span>
          </div>
           </Col>
         </Row>
@@ -46,9 +46,9 @@ class AboutMePage extends React.Component {
           Một câu chuyện của tôi được bắt đầu.....
           <br></br>
           <br></br>
-          Bước 1 : Tìm kiếm ý tưởng  <br></br>
+          Bước 1 : Tìm kiếm ý tưởng <br></br>
           Đây là một công ty làm về công nghệ vì vậy phải tạo sự chuyên nghiệp, <br></br>
-          sang, hiện đại và  thể hiện được đặc thù của ngành đó.
+          sang, hiện đại và thể hiện được đặc thù của ngành đó.
           <br></br>
           <br></br>
           Bước 2 : Sắp xếp bố cục <br></br>

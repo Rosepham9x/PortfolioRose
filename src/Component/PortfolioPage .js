@@ -14,10 +14,10 @@ class PortfolioPage extends React.Component {
       <Row key={1} className="row1">
             <Col sm={12} md={3}>
             <div className="app1">
-            <a href="#">
+            <a href="/San-pham">
                 <Image src="image/app1.png" responsive/>
                 </a>  
-                <span>Ý TƯỞNG</span>
+                <span>NHẬT KÝ</span>
                 </div>
             </Col>
             <Col sm={12} md={3}>
@@ -25,7 +25,7 @@ class PortfolioPage extends React.Component {
             <a href="#">
                   <Image src="image/app2.png" responsive/> 
                   </a>
-                  <span>BỐ CỤC</span>
+                  <span>BÓI TÌNH YÊU</span>
                   </div>
             </Col>
             <Col sm={12} md={3}>
@@ -33,7 +33,7 @@ class PortfolioPage extends React.Component {
             <a href="#">
                   <Image src="image/app3.png" responsive/>
                   </a> 
-                  <span>MÀU SẮC</span>
+                  <span>LOVE IS</span>
                   </div>
             </Col>
             <Col sm={12} md={3}>
@@ -41,7 +41,7 @@ class PortfolioPage extends React.Component {
             <a href="#">
                   <Image src="image/app4.png" responsive/>
                   </a> 
-                  <span>MÀU SẮC</span>
+                  <span>NƯỚC</span>
                   </div>
             </Col>
           </Row>
@@ -53,7 +53,7 @@ class PortfolioPage extends React.Component {
           <a href="#">
                 <Image src="image/app5.png" responsive/>
                 </a>  
-               <span>Ý TƯỞNG</span>
+               <span>BITTER</span>
                </div>
           </Col>
           <Col sm={12} md={3}>
@@ -61,7 +61,7 @@ class PortfolioPage extends React.Component {
           <a href="#">
                 <Image src="image/app6.png" responsive/>
                 </a>  
-                <span>BỐ CỤC</span>
+                <span>BÓI TỬ VI</span>
                 </div>
           </Col>
           <Col sm={12} md={3}>
@@ -69,7 +69,7 @@ class PortfolioPage extends React.Component {
           <a href="#">
                 <Image src="image/app7.png" responsive/>
                 </a>   
-                <span>MÀU SẮC</span>
+                <span>NETWORK</span>
                 </div>
           </Col>
           <Col sm={12} md={3}>
@@ -77,7 +77,7 @@ class PortfolioPage extends React.Component {
           <a href="#">
                 <Image src="image/app8.png" responsive/>
                 </a>   
-                <span>MÀU SẮC</span>
+                <span>BÁO THỨC</span>
                 </div>
           </Col>
         </Row>
@@ -89,35 +89,35 @@ class PortfolioPage extends React.Component {
     content.push(
       <Row key={1} className="row1">
             <Col sm={12} md={3}>
-            <div className="app1">
+            <div className="standee1">
             <a href="#">
-                <Image src="image/app1.png" responsive/>
+                <Image src="image/standee1.png" responsive/>
                 </a>  
-                <span>Ý TƯỞNG</span>
+                <span>STANDEE</span>
                 </div>
             </Col>
             <Col sm={12} md={3}>
             <div className="app2">
             <a href="#">
-                  <Image src="image/app2.png" responsive/> 
+                  <Image src="image/standee2.png" responsive/> 
                   </a>
-                  <span>BỐ CỤC</span>
+                  <span>STANDEE</span>
                   </div>
             </Col>
             <Col sm={12} md={3}>
             <div className="app3">
             <a href="#">
-                  <Image src="image/app3.png" responsive/>
+                  <Image src="image/standee3.png" responsive/>
                   </a> 
-                  <span>MÀU SẮC</span>
+                  <span>STANDEE</span>
                   </div>
             </Col>
             <Col sm={12} md={3}>
             <div className="app4">
             <a href="#">
-                  <Image src="image/app4.png" responsive/>
+                  <Image src="image/standee4.png" responsive/>
                   </a> 
-                  <span>MÀU SẮC</span>
+                  <span>STANDEE</span>
                   </div>
             </Col>
           </Row>
@@ -127,33 +127,33 @@ class PortfolioPage extends React.Component {
           <Col sm={12} md={3}>
           <div className="app5">
           <a href="#">
-                <Image src="image/app5.png" responsive/>
+                <Image src="image/standee5.png" responsive/>
                 </a>  
-               <span>Ý TƯỞNG</span>
+               <span>POSTER</span>
                </div>
           </Col>
           <Col sm={12} md={3}>
           <div className="app6">
           <a href="#">
-                <Image src="image/app6.png" responsive/>
+                <Image src="image/standee6.png" responsive/>
                 </a>  
-                <span>BỐ CỤC</span>
+                <span>POSTER</span>
                 </div>
           </Col>
           <Col sm={12} md={3}>
           <div className="app7">
           <a href="#">
-                <Image src="image/app7.png" responsive/>
+                <Image src="image/standee7.png" responsive/>
                 </a>   
-                <span>MÀU SẮC</span>
+                <span>BANNER</span>
                 </div>
           </Col>
           <Col sm={12} md={3}>
           <div className="app8">
           <a href="#">
-                <Image src="image/app8.png" responsive/>
+                <Image src="image/standee8.png" responsive/>
                 </a>   
-                <span>MÀU SẮC</span>
+                <span>POSTER</span>
                 </div>
           </Col>
         </Row>
@@ -165,35 +165,35 @@ class PortfolioPage extends React.Component {
     content.push(
       <Row key={1} className="row1">
             <Col sm={12} md={3}>
-            <div className="app1">
+            <div className="video1">
             <a href="#">
-                <Image src="image/app1.png" responsive/>
+                <Image src="image/video1.png" responsive/>
                 </a>  
-                <span>Ý TƯỞNG</span>
+                <span>VIDEO</span>
                 </div>
             </Col>
             <Col sm={12} md={3}>
-            <div className="app2">
+            <div className="video2">
             <a href="#">
-                  <Image src="image/app2.png" responsive/> 
+                  <Image src="image/video2.png" responsive/> 
                   </a>
-                  <span>BỐ CỤC</span>
+                  <span>VIDEO</span>
                   </div>
             </Col>
             <Col sm={12} md={3}>
-            <div className="app3">
+            <div className="video3">
             <a href="#">
-                  <Image src="image/app3.png" responsive/>
+                  <Image src="image/video1.png" responsive/>
                   </a> 
-                  <span>MÀU SẮC</span>
+                  <span>VIDEO</span>
                   </div>
             </Col>
             <Col sm={12} md={3}>
-            <div className="app4">
+            <div className="video4">
             <a href="#">
-                  <Image src="image/app4.png" responsive/>
+                  <Image src="image/video2.png" responsive/>
                   </a> 
-                  <span>MÀU SẮC 2</span>
+                  <span>VIDEO</span>
                   </div>
             </Col>
           </Row>
@@ -201,35 +201,35 @@ class PortfolioPage extends React.Component {
       content.push(
         <Row key={2} className="row2">
           <Col sm={12} md={3}>
-          <div className="app5">
+          <div className="video5">
           <a href="#">
-                <Image src="image/app5.png" responsive/>
+                <Image src="image/video1.png" responsive/>
                 </a>  
-               <span>Ý TƯỞNG</span>
+               <span>VIDEO</span>
                </div>
           </Col>
           <Col sm={12} md={3}>
-          <div className="app6">
+          <div className="video6">
           <a href="#">
-                <Image src="image/app6.png" responsive/>
+                <Image src="image/video2.png" responsive/>
                 </a>  
-                <span>BỐ CỤC</span>
+                <span>VIDEO</span>
                 </div>
           </Col>
           <Col sm={12} md={3}>
-          <div className="app7">
+          <div className="video7">
           <a href="#">
-                <Image src="image/app7.png" responsive/>
+                <Image src="image/video1.png" responsive/>
                 </a>   
-                <span>MÀU SẮC 3</span>
+                <span>VIDEO</span>
                 </div>
           </Col>
           <Col sm={12} md={3}>
-          <div className="app8">
+          <div className="video8">
           <a href="#">
-                <Image src="image/app8.png" responsive/>
+                <Image src="image/video2.png" responsive/>
                 </a>   
-                <span>MÀU SẮC</span>
+                <span>VIDEO</span>
                 </div>
           </Col>
         </Row>
