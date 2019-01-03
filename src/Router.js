@@ -8,6 +8,8 @@ import ExperiencePage from './Component/ExperiencePage';
 import PortfolioPage from './Component/PortfolioPage ';
 import ContactPage from './Component/ContactPage';
 import WebappPage from './Component/WebappPage';
+import Standee1Page from './Component/Standee1Page';
+import Standee2Page from './Component/Standee2Page';
 
 const Router = ()=> (
     <BrowserRouter>
@@ -19,6 +21,8 @@ const Router = ()=> (
         <Route path="/portfolio" component={PortfolioPage}/>
         <Route path="/lien-he" component={ContactPage}/>
         <Route path="/San-pham" component={WebappPage}/>
+        <Route path="/standee1" component={Standee1Page}/>
+        <Route path="/standee2" component={Standee2Page}/>
     </Switch>
     </Suspense>
     </BrowserRouter>

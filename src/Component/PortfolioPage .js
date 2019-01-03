@@ -14,23 +14,23 @@ class PortfolioPage extends React.Component {
       <Row key={1} className="row1">
             <Col sm={12} md={3}>
             <div className="app1">
-            <a href="/San-pham">
+            <a href="https://www.behance.net/gallery/52509755/DIARY-1">
                 <Image src="image/app1.png" responsive/>
                 </a>  
-                <span>NHẬT KÝ</span>
+                <span>DIARY</span>
                 </div>
             </Col>
             <Col sm={12} md={3}>
             <div className="app2">
-            <a href="#">
+            <a href="https://www.behance.net/gallery/52508149/fake-call-test-love-App">
                   <Image src="image/app2.png" responsive/> 
                   </a>
-                  <span>BÓI TÌNH YÊU</span>
+                  <span>BLOVE DIVINE</span>
                   </div>
             </Col>
             <Col sm={12} md={3}>
             <div className="app3">
-            <a href="#">
+            <a href="https://www.behance.net/gallery/52508699/loveappss">
                   <Image src="image/app3.png" responsive/>
                   </a> 
                   <span>LOVE IS</span>
@@ -38,10 +38,10 @@ class PortfolioPage extends React.Component {
             </Col>
             <Col sm={12} md={3}>
             <div className="app4">
-            <a href="#">
+            <a href="https://www.behance.net/gallery/63245515/water-remind">
                   <Image src="image/app4.png" responsive/>
                   </a> 
-                  <span>NƯỚC</span>
+                  <span>WATER</span>
                   </div>
             </Col>
           </Row>
@@ -50,7 +50,7 @@ class PortfolioPage extends React.Component {
         <Row key={2} className="row2">
           <Col sm={12} md={3}>
           <div className="app5">
-          <a href="#">
+          <a href="/San-pham">
                 <Image src="image/app5.png" responsive/>
                 </a>  
                <span>BITTER</span>
@@ -58,15 +58,15 @@ class PortfolioPage extends React.Component {
           </Col>
           <Col sm={12} md={3}>
           <div className="app6">
-          <a href="#">
+          <a href="https://www.behance.net/gallery/52508511/T-vi-2017">
                 <Image src="image/app6.png" responsive/>
                 </a>  
-                <span>BÓI TỬ VI</span>
+                <span>DIVINE</span>
                 </div>
           </Col>
           <Col sm={12} md={3}>
           <div className="app7">
-          <a href="#">
+          <a href="https://www.behance.net/gallery/63035591/Network-Master">
                 <Image src="image/app7.png" responsive/>
                 </a>   
                 <span>NETWORK</span>
@@ -74,10 +74,10 @@ class PortfolioPage extends React.Component {
           </Col>
           <Col sm={12} md={3}>
           <div className="app8">
-          <a href="#">
+          <a href="https://www.behance.net/gallery/62912329/Alarm">
                 <Image src="image/app8.png" responsive/>
                 </a>   
-                <span>BÁO THỨC</span>
+                <span>ALARM</span>
                 </div>
           </Col>
         </Row>
@@ -90,7 +90,7 @@ class PortfolioPage extends React.Component {
       <Row key={1} className="row1">
             <Col sm={12} md={3}>
             <div className="standee1">
-            <a href="#">
+            <a href="/standee1">
                 <Image src="image/standee1.png" responsive/>
                 </a>  
                 <span>STANDEE</span>
@@ -98,7 +98,7 @@ class PortfolioPage extends React.Component {
             </Col>
             <Col sm={12} md={3}>
             <div className="app2">
-            <a href="#">
+            <a href="/standee2">
                   <Image src="image/standee2.png" responsive/> 
                   </a>
                   <span>STANDEE</span>
@@ -164,41 +164,25 @@ class PortfolioPage extends React.Component {
     let content = [];
     content.push(
       <Row key={1} className="row1">
-            <Col sm={12} md={3}>
+            <Col sm={6} md={6}>
             <div className="video1">
-            <a href="#">
+            <a href="https://drive.google.com/file/d/1o8X1G_VXgFp6MZXZr8TwlnQO9X0FJCUJ/view?usp=sharing">
                 <Image src="image/video1.png" responsive/>
                 </a>  
-                <span>VIDEO</span>
+                <span>T.Y.K FARM</span>
                 </div>
             </Col>
-            <Col sm={12} md={3}>
+            <Col sm={6} md={6}>
             <div className="video2">
-            <a href="#">
+            <a href="https://www.facebook.com/Dochoigiaykami/videos/2044571968889812/?t=1">
                   <Image src="image/video2.png" responsive/> 
                   </a>
-                  <span>VIDEO</span>
-                  </div>
-            </Col>
-            <Col sm={12} md={3}>
-            <div className="video3">
-            <a href="#">
-                  <Image src="image/video1.png" responsive/>
-                  </a> 
-                  <span>VIDEO</span>
-                  </div>
-            </Col>
-            <Col sm={12} md={3}>
-            <div className="video4">
-            <a href="#">
-                  <Image src="image/video2.png" responsive/>
-                  </a> 
-                  <span>VIDEO</span>
+                  <span>AUDIO KỂ CHUYỆN</span>
                   </div>
             </Col>
           </Row>
       );
-      content.push(
+    /*  content.push(
         <Row key={2} className="row2">
           <Col sm={12} md={3}>
           <div className="video5">
@@ -233,7 +217,7 @@ class PortfolioPage extends React.Component {
                 </div>
           </Col>
         </Row>
-      );
+      ); */
     return content;
   }
   buildDetail(index) {

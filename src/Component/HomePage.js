@@ -28,7 +28,8 @@ class HomePage extends React.Component {
                    <span>tôi luôn theo đuổi nó, luôn muốn những sản phẩm mình</span> <br></br>
                    <span>làm ra sẽ ngày càng đẹp, hoàn mỹ hơn.</span>
                    </div>
-                   <Button className="bttn-por">go to portfolio</Button>
+                   <Button href="/portfolio" className="bttn-por">go to portfolio</Button>
+                 
                 </Panel.Body>
             </Panel>
           </Col>

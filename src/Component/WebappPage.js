@@ -58,13 +58,13 @@ class WebappPage extends React.Component {
         <Row className="show-grid">
           <Col sm={12} md={12}>
           <div className="textbanner">
-              <b>BANNER APP</b>
+              <b>CÁC TRANG TRONG</b>
                </div>
           </Col>
         </Row>
         <Row className="show-grid">
           <Col sm={6} md={6}>
-          <div className="layoutbitster1">
+          <div className="layoutbitster0">
           <Image src="image/layoutbitster-01.png" responsive/>
           </div>
           </Col>
@@ -75,46 +75,40 @@ class WebappPage extends React.Component {
           </Col>
         </Row>
 
+      <div className="rowsp1">
         <Row className="show-grid">
           <Col sm={12} md={4}>
-          <div className="ytuong">
-                <Image src="image/ytuong.png" responsive/> 
-               <span>Ý TƯỞNG</span>
+          <div className="layout1">
+                <Image src="image/layoutbitster-04.png" responsive/> 
                </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="layout">
-                <Image src="image/layout.png" responsive/> 
-                <br></br>
-                <span>BỐ CỤC</span>
+          <div className="layout2">
+                <Image src="image/layoutbitster-04a.png" responsive/>
                 </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="mausac">
-                <Image src="image/mausac.png" responsive/> 
-                <span>MÀU SẮC</span>
+          <div className="layout3">
+                <Image src="image/layoutbitster-05.png" responsive/>
                 </div>
           </Col>
         </Row>
-
+        </div>
+        
         <Row className="show-grid">
           <Col sm={12} md={4}>
-          <div className="ytuong">
-                <Image src="image/ytuong.png" responsive/> 
-               <span>Ý TƯỞNG</span>
+          <div className="layout4">
+                <Image src="image/layoutbitster-06.png" responsive/> 
                </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="layout">
-                <Image src="image/layout.png" responsive/> 
-                <br></br>
-                <span>BỐ CỤC</span>
+          <div className="layout5">
+                <Image src="image/layoutbitster-07.png" responsive/> 
                 </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="mausac">
-                <Image src="image/mausac.png" responsive/> 
-                <span>MÀU SẮC</span>
+          <div className="layou6">
+                <Image src="image/layoutbitster-08.png" responsive/> 
                 </div>
           </Col>
         </Row>
