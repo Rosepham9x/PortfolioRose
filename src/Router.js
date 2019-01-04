@@ -10,6 +10,12 @@ import ContactPage from './Component/ContactPage';
 import WebappPage from './Component/WebappPage';
 import Standee1Page from './Component/Standee1Page';
 import Standee2Page from './Component/Standee2Page';
+import Standee3Page from './Component/Standee3Page';
+import Standee4Page from './Component/Standee4Page';
+import Standee5Page from './Component/Standee5Page';
+import Standee6Page from './Component/Standee6Page';
+import Standee7Page from './Component/Standee7Page';
+import Standee8Page from './Component/Standee8Page';
 
 const Router = ()=> (
     <BrowserRouter>
@@ -23,6 +29,12 @@ const Router = ()=> (
         <Route path="/San-pham" component={WebappPage}/>
         <Route path="/standee1" component={Standee1Page}/>
         <Route path="/standee2" component={Standee2Page}/>
+        <Route path="/standee3" component={Standee3Page}/>
+        <Route path="/standee4" component={Standee4Page}/>
+        <Route path="/standee5" component={Standee5Page}/>
+        <Route path="/standee6" component={Standee6Page}/>
+        <Route path="/standee7" component={Standee7Page}/>
+        <Route path="/standee8" component={Standee8Page}/>
     </Switch>
     </Suspense>
     </BrowserRouter>

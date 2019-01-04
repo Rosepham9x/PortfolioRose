@@ -106,7 +106,7 @@ class PortfolioPage extends React.Component {
             </Col>
             <Col sm={12} md={3}>
             <div className="app3">
-            <a href="#">
+            <a href="/standee3">
                   <Image src="image/standee3.png" responsive/>
                   </a> 
                   <span>STANDEE</span>
@@ -114,7 +114,7 @@ class PortfolioPage extends React.Component {
             </Col>
             <Col sm={12} md={3}>
             <div className="app4">
-            <a href="#">
+            <a href="/standee4">
                   <Image src="image/standee4.png" responsive/>
                   </a> 
                   <span>STANDEE</span>
@@ -126,7 +126,7 @@ class PortfolioPage extends React.Component {
         <Row key={2} className="row2">
           <Col sm={12} md={3}>
           <div className="app5">
-          <a href="#">
+          <a href="/standee5">
                 <Image src="image/standee5.png" responsive/>
                 </a>  
                <span>POSTER</span>
@@ -134,7 +134,7 @@ class PortfolioPage extends React.Component {
           </Col>
           <Col sm={12} md={3}>
           <div className="app6">
-          <a href="#">
+          <a href="/standee6">
                 <Image src="image/standee6.png" responsive/>
                 </a>  
                 <span>POSTER</span>
@@ -142,7 +142,7 @@ class PortfolioPage extends React.Component {
           </Col>
           <Col sm={12} md={3}>
           <div className="app7">
-          <a href="#">
+          <a href="/standee7">
                 <Image src="image/standee7.png" responsive/>
                 </a>   
                 <span>BANNER</span>
@@ -150,7 +150,7 @@ class PortfolioPage extends React.Component {
           </Col>
           <Col sm={12} md={3}>
           <div className="app8">
-          <a href="#">
+          <a href="/standee8">
                 <Image src="image/standee8.png" responsive/>
                 </a>   
                 <span>POSTER</span>

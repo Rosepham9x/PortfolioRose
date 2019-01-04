@@ -21,13 +21,13 @@ class Standee2Page extends React.Component {
         
         <Row className="show-grid">
           <Col sm={6} md={6}>
-          <div className="standee1a">
-          <Image src="image/standee1a.png" responsive/>
+          <div className="standee2a">
+          <Image src="image/standee2a.jpg" responsive/>
           </div>
           </Col>
           <Col sm={6} md={6}>
-          <div className="standeedemo1">
-          <Image src="image/standeedemo1.png" responsive/>
+          <div className="standeedemo2">
+          <Image src="image/standee2ae.png" responsive/>
           </div>
           </Col>
         </Row>

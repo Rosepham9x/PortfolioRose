@@ -25,7 +25,7 @@ class ContactPage extends React.Component {
                 <FormGroup>
                   <FormControl type="texttype" placeholder="Loại công việc" />
                 </FormGroup>
-                <FormGroup>
+                <FormGroup  bsSize="large">
                   <FormControl type="textdetail" placeholder="Thông tin chi tiết công việc" />
                 </FormGroup>
               </form>;

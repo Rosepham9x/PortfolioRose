@@ -11,7 +11,7 @@ class ExperiencePage extends React.Component {
       <Row className="show-grid">
           <Col sm={12} md={12}>
           <div className="kynang">
-       KỸ NĂNG
+          <b>KỸ NĂNG</b> <br></br>
         
          </div>
           </Col>
