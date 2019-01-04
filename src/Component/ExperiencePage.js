@@ -30,8 +30,9 @@ class ExperiencePage extends React.Component {
   }
   render() {
     return (
-      <div className="home-page">
-        <Page _content={this.buidContent()}></Page>
+      <div className="section-experience">
+      {this.buidContent()}
+      {/*<Page _content={this.buidContent()}></Page>*/} 
       </div>
     );
   }

@@ -240,15 +240,15 @@ class PortfolioPage extends React.Component {
     content.push(
       <Grid key="grid">
       <Row className="show-grid">
-          <Col sm={12} md={4}>
+          <Col xs={4} sm={4} md={4}>
           <Button onClick={()=>{this.buildDetail(1)}} className="bttn1">WEB/APP</Button>
           </Col>
 
-            <Col sm={12} md={4}>
+            <Col xs={4} sm={4} md={4}>
           <Button onClick={()=>{this.buildDetail(2)}} className="bttn2">POSM</Button>
           </Col>
 
-          <Col sm={12} md={4}>
+          <Col xs={4} sm={4} md={4}>
           <Button  onClick={()=>{this.buildDetail(3)}} className="bttn3">VIDEO</Button>
           </Col>
         </Row>
@@ -263,8 +263,9 @@ class PortfolioPage extends React.Component {
   }
   render() {
     return (
-      <div className="home-page">
-        <Page _content={this.buidContent()}></Page>
+      <div className="section-portfolio">
+      {this.buidContent()}
+       {/*<Page _content={this.buidContent()}></Page>*/}
       </div>
     );
   }

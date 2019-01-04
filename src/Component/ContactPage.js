@@ -46,6 +46,38 @@ class ContactPage extends React.Component {
             </Panel>
           </Col>
         </Row>
+        
+        <Row className="contact-footer show-grid">
+          <Col xs={3} sm={3} md={3}>
+          <div className="skype">
+                <a href="#">
+                <Image src="image/skype.png" responsive/>
+                </a>
+               </div>
+          </Col>
+          <Col xs={3} sm={3} md={3}>
+          <div className="facebook">
+                <a href="#">
+                <Image src="image/facebook-brands.png" responsive/> 
+                </a>
+                </div>
+          </Col>
+          <Col xs={3} sm={3} md={3}>
+          <div className="email">
+                <a href="#">
+                <Image src="image/email.png" responsive/>
+                </a>
+                </div>
+          </Col>
+          <Col xs={3} sm={3} md={3}>
+          <div className="youtobe">
+                <a href="#">
+                <Image src="image/youtube-brands.png" responsive/> 
+                </a>
+                </div>
+          </Col>
+        </Row>
+        
       </Grid>
     )
 
@@ -54,8 +86,9 @@ class ContactPage extends React.Component {
   }
   render() {
     return (
-      <div className="home-page">
-        <Page _content={this.buidContent()}></Page>
+      <div className="section-contact">
+      {this.buidContent()}
+      {/*<Page _content={this.buidContent()}></Page>*/}
       </div>
     );
   }

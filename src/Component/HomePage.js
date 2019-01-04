@@ -4,6 +4,11 @@ import Page from '../Page'
 import { Grid, Row, Col, Image, Panel, Button } from 'react-bootstrap';
 import data from '../Data'
 
+import AboutMePage from './AboutMePage';
+import ExperiencePage from './ExperiencePage';
+import PortfolioPage from './PortfolioPage ';
+import ContactPage from './ContactPage';
+
 class HomePage extends React.Component {
   buidContent() {
     let content = [];
@@ -37,13 +42,16 @@ class HomePage extends React.Component {
       </Grid>
     )
 
-    
         return content;
   }
   render() {
     return (
       <div className="home-page">
         <Page footerData={data.getHomeFooter()} _content={this.buidContent()}></Page>
+        <AboutMePage></AboutMePage>
+        <ExperiencePage></ExperiencePage>
+        <PortfolioPage></PortfolioPage>
+        <ContactPage></ContactPage>
       </div>
     );
   }

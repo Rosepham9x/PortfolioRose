@@ -130,35 +130,35 @@ body {
 .dulich {
 margin-top: 15px;
 }
-.dulich img {
+/*.dulich img {
  padding-left: 157px;
-}
+}*/
 
 .xahoi {
   margin-top: 15px;
   }
-  .xahoi img {
+  /*.xahoi img {
    padding-left: 140px;
-  }
+  }*/
 
   .nghenhac {
     margin-top: 15px;
     }
-    .nghenhac img {
+    /*.nghenhac img {
      padding-left: 142px;
-    }
+    }*/
 
     .docsach {
       margin-top: 15px;
       }
-      .docsach img {
+      /*.docsach img {
        padding-left: 136px;
+      }*/
+
+      .app-footer .container {
+        margin: 0;
+        width: 100%;
       }
-
-    .container {
-
-      font-size: 15px;
-    }
 
     .vetoi{
       color: #ED355B;
@@ -198,12 +198,21 @@ margin-top: 15px;
 
     .kynang {
       color: #ED355B;
-      margin-right: 764px;
+      /*margin-right: 764px;*/
+      float: left;
       padding-top: 29px;
+    }
+    .app-item-footer {
+      text-align: -webkit-center;
+    }
+    .pm {
+      
+    text-align: -webkit-center;
+
     }
 
     .pm img{
-     margin-left: 154px;
+     /*margin-left: 154px;*/
      margin-top: 33px;   
     }
 
@@ -237,7 +246,7 @@ margin-top: 15px;
     
     .textlife {
      background-color: #ED355B;
-     margin-bottom: 218px;
+     /*margin-bottom: 218px;*/
      color: #ffffff;
     }
 
@@ -246,8 +255,8 @@ margin-top: 15px;
     }
 
     .textlife img {
-      margin-left: 183px;
-      margin-bottom: 60px  
+      float: right;
+      margin-bottom: 60px; 
     }
 
     .bttn-contact {
@@ -267,30 +276,30 @@ margin-top: 15px;
     .kinhnghiem {
       margin-top: 15px;
       }
-    .kinhnghiem img {
+    /*.kinhnghiem img {
       padding-left: 130px;
-      }
+      }*/
       
     .thietkeapp {
       margin-top: 15px;
       }
-    .thietkeapp img {
+    /*.thietkeapp img {
       padding-left:125px;
-      }
+      }*/
       
     .tkposm {
       margin-top: 15px;
       }
-    .tkposm img {
+    /*.tkposm img {
       padding-left: 128px;
-      }
+      }*/
       
     .dungvideo {
       margin-top: 15px;
       }
-    .dungvideo img {
+    /*.dungvideo img {
       padding-left: 120px;
-      }
+      }*/
 
       .home-page .panel {
         background: transparent;
@@ -341,5 +350,19 @@ margin-top: 15px;
       .rowsp1 {
         margin: 28px; 
       }
+
+      .section-aboutme {
+        margin-top: 78px; 
+      }
+
+      .section-portfolio{
+        margin-top: 78px;
+      }
       
-      
+      .section-contact{
+        margin-top: 78px;
+      }
+
+      .contact-footer > div > div {
+          margin-left: 50%;
+      }

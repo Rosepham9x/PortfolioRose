@@ -5,8 +5,8 @@ import { Navbar, Nav, NavDropdown, MenuItem, NavItem, Grid, Row, Col, Image } fr
 class Header extends React.Component {
   render() {
     return (
-      <Navbar collapseOnSelect fluid={true}>
-        <Navbar.Collapse>
+      <Navbar fluid={true}>
+
           <Grid>
             <Row className="show-grid">
               <Col xs={12} md={12}>
@@ -14,8 +14,7 @@ class Header extends React.Component {
                   <Navbar.Header>
                     <Navbar.Brand>
                       <img className="brand-logo" src={'image/logo.png'} ></img>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
+                    </Navbar.Brand> 
                   </Navbar.Header>
                   <Nav className="padding-menu">
                     <NavItem eventKey={1} href="/">
@@ -39,7 +38,6 @@ class Header extends React.Component {
               </Col>
             </Row>
           </Grid>
-        </Navbar.Collapse>
       </Navbar>
     )
   }
