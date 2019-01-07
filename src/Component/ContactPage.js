@@ -30,7 +30,7 @@ class ContactPage extends React.Component {
                 </FormGroup>
               </form>;
                    </div>
-            <Button href="#" className="bttn-contact">Gửi tin nhắn</Button>
+            <Button href="rose.cuxi@gmail.com" className="bttn-contact">Gửi tin nhắn</Button>
           </Col>
           <Col sm={6} md={6}>
             <Panel>
