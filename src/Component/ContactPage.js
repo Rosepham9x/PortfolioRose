@@ -35,12 +35,12 @@ class ContactPage extends React.Component {
           <Col sm={6} md={6}>
             <Panel>
               <Panel.Body>
-                <div className="textlife">
+                <div className="infolife">
                   <Image src="image/avatar.png" responsive />
                   <span className="textlife">“Cuộc sống chỉ mang lại cho chúng ta <br></br>
                     10% cơ hội, 90% còn lại là do chúng ta <br></br>
                     trải nghiệm thế nào với nó.”</span> <br></br>
-                   <a href="url">Link CV pdf</a>
+                   <a href="https://drive.google.com/file/d/1cPzZ57PjB_G0awhSZjKbHJRCT0t5IsQV/view?usp=sharing">Link CV pdf</a>
                 </div>
               </Panel.Body>
             </Panel>

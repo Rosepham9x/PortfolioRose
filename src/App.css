@@ -1,6 +1,7 @@
 body{
   background-image: url("/image/background.png");
   background-size: contain;
+  
 }
 .App {
   text-align: center;
@@ -96,6 +97,7 @@ body{
   color: #977E83;
   font-family: 'Josefin Sans';
   margin-top: 32px;
+  font-size: 18px;
 }
 
 .bttn-por {
@@ -120,7 +122,8 @@ panel-default {
 }
 
 .app-footer .show-grid{
-  background-color: #ED355B
+  background-color: #ED355B;
+  padding-bottom: 14px;
 }
 
 body {
@@ -160,10 +163,16 @@ margin-top: 15px;
         width: 100%;
       }
 
-    .vetoi{
+    .vetoi {
       color: #ED355B;
-      font-size: 23px; 
+      font-size: 30px; 
     }
+
+    .info {
+      color: #977E83;
+      font-size: 18px;
+    }
+
 
     .ytuong img {
       margin-left: 58px;
@@ -244,19 +253,22 @@ margin-top: 15px;
       margin-right: 68px;
     }
     
-    .textlife {
+    .infolife {
      background-color: #ED355B;
-     /*margin-bottom: 218px;*/
      color: #ffffff;
+     margin-top: 32px;
+     padding-bottom: 20px;
+     padding-left: inherit;
+     padding-top: inherit;
     }
 
     .textlife span {
     margin-bottom: 38px;
     }
 
-    .textlife img {
-      float: right;
-      margin-bottom: 60px; 
+    .infolife img {
+      float: center;
+      margin: auto;
     }
 
     .bttn-contact {

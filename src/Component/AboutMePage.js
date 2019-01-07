@@ -13,7 +13,9 @@ class AboutMePage extends React.Component {
       <Row className="show-grid">
           <Col sm={12} md={12}>
           <div className="vetoi">
-         <span> Câu chuyện của tôi</span> <br></br>
+         <span> <b>CÂU CHUYỆN CỦA TÔI</b></span> <br></br>
+         </div>
+         <div className="info">
         <span>Những câu chuyện của tôi được bắt đầu</span> <br></br>
         <span> từ ý tưởng, bố cục, màu sắc.</span>
          </div>
