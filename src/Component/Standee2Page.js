@@ -8,7 +8,7 @@ class Standee2Page extends React.Component {
   buidContent() {
     let content = [];
     content.push(
-      <Grid key="grid">
+      <Grid key="grid" className="standee">
       <Row className="show-grid">
           <Col sm={12} md={12}>
           <div className="namebitster">
@@ -38,7 +38,7 @@ class Standee2Page extends React.Component {
   }
   render() {
     return (
-      <div className="home-page">
+      <div>
         <Page footerData={data.getAboutMeFooter()} _content={this.buidContent()}></Page>
       </div>
     );

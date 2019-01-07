@@ -13,7 +13,7 @@ class HomePage extends React.Component {
   buidContent() {
     let content = [];
     content.push(
-      <Grid key="grid">
+      <Grid key="grid" id={"home"}>
         <Row className="show-grid">
           <Col sm={6} md={6}>
             <Image src="image/hinh 1.png" responsive />

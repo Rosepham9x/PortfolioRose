@@ -16,20 +16,21 @@ class Header extends React.Component {
                       <img className="brand-logo" src={'image/logo.png'} ></img>
                     </Navbar.Brand> 
                   </Navbar.Header>
+                  
                   <Nav className="padding-menu">
-                    <NavItem eventKey={1} href="/">
+                    <NavItem eventKey={1} className="scroll" href="/#home">
                       Trang Chủ
                       </NavItem>
-                    <NavItem eventKey={2} href="/ve-toi">
+                    <NavItem eventKey={2} className="scroll" href="/#vetoi">
                       Về Tôi
                         </NavItem>
-                    <NavItem eventKey={2} href="/kinh-nghiem">
+                    <NavItem eventKey={2} className="scroll" href="/#kinhnghiem">
                       Kinh Nghiệm
                         </NavItem>
-                    <NavItem eventKey={2} href="portfolio">
+                    <NavItem eventKey={2} className="scroll" href="/#portfolio">
                       Portfolio
                          </NavItem>
-                         <NavItem eventKey={2} href="lien-he">
+                         <NavItem eventKey={2} className="scroll" href="/#lienhe">
                      Liên hệ
                          </NavItem>
   

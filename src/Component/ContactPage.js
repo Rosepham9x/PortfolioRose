@@ -30,7 +30,7 @@ class ContactPage extends React.Component {
                 </FormGroup>
               </form>;
                    </div>
-            <Button href="rose.cuxi@gmail.com" className="bttn-contact">Gửi tin nhắn</Button>
+            <Button href="AddressEmail/rose.cuxi@gmail.com" className="bttn-contact">Gửi tin nhắn</Button>
           </Col>
           <Col sm={6} md={6}>
             <Panel>
@@ -50,7 +50,7 @@ class ContactPage extends React.Component {
         <Row className="contact-footer show-grid">
           <Col xs={3} sm={3} md={3}>
             <div className="skype">
-              <a href="rose.cuxi">
+              <a href="NameSkype/rose.cuxi">
                 <Image src="image/skype.png" responsive />
               </a>
             </div>
@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
           </Col>
           <Col xs={3} sm={3} md={3}>
             <div className="email">
-              <a href="rose.cuxi@gmail.com">
+              <a href="AddressEmail/rose.cuxi@gmail.com">
                 <Image src="image/email.png" responsive />
               </a>
             </div>
@@ -86,7 +86,7 @@ class ContactPage extends React.Component {
   }
   render() {
     return (
-      <div className="section-contact">
+      <div className="section-contact" id="lienhe">
         {this.buidContent()}
         {/*<Page _content={this.buidContent()}></Page>*/}
       </div>

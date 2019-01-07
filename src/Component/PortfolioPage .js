@@ -263,7 +263,7 @@ class PortfolioPage extends React.Component {
   }
   render() {
     return (
-      <div className="section-portfolio">
+      <div className="section-portfolio" id="portfolio">
       {this.buidContent()}
        {/*<Page _content={this.buidContent()}></Page>*/}
       </div>

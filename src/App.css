@@ -43,6 +43,8 @@ body{
   font-family: ' Josefin Sans';
   margin-bottom: 0px;
   width: 100%;
+  position: fixed;
+    z-index: 9999;
 }
 .navbar-default .navbar-nav>li>a {
   color: #EF5B78;
@@ -381,3 +383,9 @@ margin-top: 15px;
       .contact-footer > div > div {
           margin-left: 50%;
       }
+
+    .standee {
+    padding-top: 100px;
+    }
+
+    

@@ -78,7 +78,7 @@ class AboutMePage extends React.Component {
   }
   render() {
     return (
-      <div className="section-aboutme">
+      <div className="section-aboutme" id="vetoi">
       {this.buidContent()}
       <Footer data={data.getAboutMeFooter()}></Footer>
         {/*<Page footerData={data.getAboutMeFooter()} _content={this.buidContent()}></Page>*/}
