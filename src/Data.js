@@ -10,10 +10,10 @@ module.exports = {
     },
     getAboutMeFooter: () => {
         let data = [
-            {cls: "kinhnghiem app-item-footer", img: "image/kinhnghiem.png", description: "Kinh nghiệm"},
-            {cls: "thietkeapp app-item-footer", img: "image/thietkeapp.png", description: "Thiết kế app"},
-            {cls: "tkposm app-item-footer", img: "image/tkposm.png", description: "Thiết kế POSM"},
-            {cls: "dungvideo app-item-footer", img: "image/dungvideo.png", description: "Dựng video"}
+            {cls: "kinhnghiem app-item-footer", img: "image/kinhnghiem.png", description: "Kinh nghiệm - 03 năm"},
+            {cls: "thietkeapp app-item-footer", img: "image/thietkeapp.png", description: "Thiết kế app - Hơn 01 năm"},
+            {cls: "tkposm app-item-footer", img: "image/tkposm.png", description: "Thiết kế POSM - 02 năm"},
+            {cls: "dungvideo app-item-footer", img: "image/dungvideo.png", description: "Dựng video - 04 video"}
         ];
         return data;
     }
