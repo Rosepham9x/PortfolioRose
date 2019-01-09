@@ -43,6 +43,8 @@ class AboutMePage extends React.Component {
           </Col>
         </Row>
         <br></br>
+        <br></br>
+        <br></br>
         <Row className="show-grid">
           <Col sm={6} md={9}>
           <div className="text">

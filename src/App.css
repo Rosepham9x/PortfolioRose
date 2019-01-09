@@ -43,8 +43,8 @@ body{
   font-family: ' Josefin Sans';
   margin-bottom: 0px;
   width: 100%;
-  position: fixed;
-    z-index: 9999;
+ /*position: fixed;
+    z-index: 9999;*/
 }
 .navbar-default .navbar-nav>li>a {
   color: #EF5B78;
@@ -247,16 +247,11 @@ margin-top: 15px;
       color: #ED355B;  
       margin-top: 56px;
     }
-    .row1 span {
-      margin-right: 68px;
-    }
 
     .row2 {
       color: #ED355B;  
     }
-    .row2 span {
-      margin-right: 68px;
-    }
+
     
     .infolife {
      background-color: #ED355B;
@@ -279,14 +274,14 @@ margin-top: 15px;
     .bttn-contact {
       background: #EF5B78;
       color: #ffffff;
-      margin-right: 446px;
+     /* float: left;*/
       margin-bottom: 34px; 
     }
 
     .title {
       color: #ED355B;
       font-size: 33px;
-      margin-right: 206px;
+      /*margin-right: 206px;*/
       margin-bottom: 13px;
     }
 
@@ -388,4 +383,6 @@ margin-top: 15px;
     padding-top: 100px;
     }
 
-    
+    .portfolio-item {
+      text-align: -webkit-center;
+    }
