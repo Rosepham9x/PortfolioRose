@@ -64,14 +64,14 @@ class ContactPage extends React.Component {
           </Col>
           <Col xs={3} sm={3} md={3}>
             <div className="email">
-              <a href="AddressEmail/rose.cuxi@gmail.com">
+              <a href="https://accounts.google.com">
                 <Image src="image/email.png" responsive />
               </a>
             </div>
           </Col>
           <Col xs={3} sm={3} md={3}>
             <div className="youtobe">
-              <a href="#">
+              <a href="https://www.youtube.com">
                 <Image src="image/youtube-brands.png" responsive />
               </a>
             </div>

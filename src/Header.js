@@ -5,7 +5,7 @@ import { Navbar, Nav, NavDropdown, MenuItem, NavItem, Grid, Row, Col, Image } fr
 class Header extends React.Component {
   render() {
     return (
-      <Navbar fluid={true}>
+      <Navbar fluid={true} collapseOnSelect>
 
           <Grid>
             <Row className="show-grid">
@@ -14,9 +14,10 @@ class Header extends React.Component {
                   <Navbar.Header>
                     <Navbar.Brand>
                       <img className="brand-logo" src={'image/logo.png'} ></img>
-                    </Navbar.Brand> 
+                    </Navbar.Brand>  
+                    <Navbar.Toggle /> {/*<Nav pullRight></Nav>*/}
                   </Navbar.Header>
-                  
+                  <Navbar.Collapse>
                   <Nav className="padding-menu">
                     <NavItem eventKey={1} className="scroll" href="/#home">
                       Trang Chủ
@@ -35,6 +36,7 @@ class Header extends React.Component {
                          </NavItem>
   
                   </Nav>
+                  </Navbar.Collapse>
                 </div>
               </Col>
             </Row>

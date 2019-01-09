@@ -43,8 +43,8 @@ body{
   font-family: ' Josefin Sans';
   margin-bottom: 0px;
   width: 100%;
- /*position: fixed;
-    z-index: 9999;*/
+  position: fixed;
+   z-index: 9999;
 }
 .navbar-default .navbar-nav>li>a {
   color: #EF5B78;
@@ -60,7 +60,7 @@ body{
 .menu-header {
   position: relative;
   width: 100%;
-  display: flex;
+  /*display: flex;*/
 }
 
 .menu-header >ul {
