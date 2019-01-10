@@ -386,3 +386,8 @@ margin-top: 15px;
     .portfolio-item {
       text-align: -webkit-center;
     }
+
+    .navbar-toggle {
+      margin-top: 22px;
+      margin-bottom: 22px;
+    }
