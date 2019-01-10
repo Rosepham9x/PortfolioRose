@@ -42,14 +42,14 @@ class WebappPage extends React.Component {
          
         <Row className="show-grid">
           <Col sm={12} md={12}>
-          <div className="textbanner">
+          <div className="textbanner portfolio-item">
               <b>BANNER APP</b>
                </div>
           </Col>
         </Row>
         <Row className="show-grid">
           <Col sm={12} md={12}>
-          <div className="bannerapp">
+          <div className="bannerapp portfolio-item">
                 <Image src="image/bannerbitster.png" responsive/> 
                </div>
           </Col>
@@ -64,12 +64,12 @@ class WebappPage extends React.Component {
         </Row>
         <Row className="show-grid">
           <Col sm={6} md={6}>
-          <div className="layoutbitster0">
+          <div className="layoutbitster0 portfolio-item">
           <Image src="image/layoutbitster-01.png" responsive/>
           </div>
           </Col>
           <Col sm={6} md={6}>
-          <div className="Mockup PSD1">
+          <div className="Mockup PSD1 portfolio-item">
           <Image src="image/Music App Phone Mockup PSD.png" responsive/>
           </div>
           </Col>
@@ -78,17 +78,17 @@ class WebappPage extends React.Component {
       <div className="rowsp1">
         <Row className="show-grid">
           <Col sm={12} md={4}>
-          <div className="layout1">
+          <div className="layout1 portfolio-item">
                 <Image src="image/layoutbitster-04.png" responsive/> 
                </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="layout2">
+          <div className="layout2 portfolio-item">
                 <Image src="image/layoutbitster-04a.png" responsive/>
                 </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="layout3">
+          <div className="layout3 portfolio-item">
                 <Image src="image/layoutbitster-05.png" responsive/>
                 </div>
           </Col>
@@ -97,17 +97,17 @@ class WebappPage extends React.Component {
         
         <Row className="show-grid">
           <Col sm={12} md={4}>
-          <div className="layout4">
+          <div className="layout4 portfolio-item">
                 <Image src="image/layoutbitster-06.png" responsive/> 
                </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="layout5">
+          <div className="layout5 portfolio-item">
                 <Image src="image/layoutbitster-07.png" responsive/> 
                 </div>
           </Col>
           <Col sm={12} md={4}>
-          <div className="layou6">
+          <div className="layou6 portfolio-item">
                 <Image src="image/layoutbitster-08.png" responsive/> 
                 </div>
           </Col>
