@@ -40,7 +40,7 @@ class ContactPage extends React.Component {
                   <span className="textlife">“Cuộc sống chỉ mang lại cho chúng ta <br></br>
                     10% cơ hội, 90% còn lại là do chúng ta <br></br>
                     trải nghiệm thế nào với nó.”</span> <br></br>
-                  <a href="https://drive.google.com/file/d/1v0ngM8eQcIIDePWG2ioevvWR7n9kLcHq/view?usp=sharing">Link CV pdf</a>
+                  <a href="https://drive.google.com/file/d/1cD-9Jey8ufqF1yoSjFdeUoXVajLxhIfx/view?usp=sharing">Link CV pdf</a>
                 </div>
               </Panel.Body>
             </Panel>
