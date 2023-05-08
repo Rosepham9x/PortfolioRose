@@ -39,6 +39,8 @@ class App extends Component {
         })
         
       });
+    
+    document.title = "rosepor"
   }
   render() {
     return (
